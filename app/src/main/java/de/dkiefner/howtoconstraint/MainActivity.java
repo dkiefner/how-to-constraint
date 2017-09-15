@@ -23,23 +23,23 @@ public class MainActivity extends AppCompatActivity {
     private int resolveLayoutToShow(View view) {
         switch (view.getId()) {
             case R.id.constraints_parent:
-                return R.layout.activity_constraints_parent;
+                return R.layout.a_constraints_parent;
             case R.id.constraints_views:
-                return R.layout.activity_constraints_views;
+                return R.layout.b_constraints_views;
             case R.id.bias:
-                return R.layout.activity_bias;
+                return R.layout.c_bias;
             case R.id.ratio:
-                return R.layout.activity_ratio;
+                return R.layout.c_ratio;
             case R.id.guideline:
-                return R.layout.activity_guideline;
+                return R.layout.d_guideline;
             case R.id.chains:
-                return R.layout.activity_chains;
+                return R.layout.e_chains;
             case R.id.groups:
-                return R.layout.activity_beta_groups;
+                return R.layout.f_beta_groups;
             case R.id.percent:
-                return R.layout.activity_beta_percent;
+                return R.layout.g_beta_percent;
             case R.id.barriers:
-                return R.layout.activity_beta_barriers;
+                return R.layout.h_beta_barriers;
             default:
                 return Constants.INVALID_ID;
         }
